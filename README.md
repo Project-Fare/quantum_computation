@@ -4,7 +4,7 @@ I will be implementing a variety of quantum algorithms in this repository. This 
 
 # Implemented Algorithms
 
-## TensorFlow-Quantum (TFQ)
+## TensorFlow-Quantum (TFQ) and Cirq
 
 Code for different TFQ experimentation. Includes original code and tutorials (and translated tutorials from pennylane to tfq). Video discussion on: https://www.youtube.com/channel/UC0U0HDNbdh0aI-9FbpYhPgg
 
@@ -19,6 +19,42 @@ Currently includes:
 - Quantum Approximate Optimization Algorithm (QAOA) in TFQ
 
 - Variational Quantum Eigensolver (VQE) in TFQ: include 1 and 2 qubit hamiltonians and replication of [Scalable Quantum Simulation of Molecular Energies](https://arxiv.org/pdf/1512.06860.pdf)
+
+- Rotosolve Optimizer for VQEs in TFQ: from [Structure optimization for parameterized quantum circuits](https://quantum-journal.org/papers/q-2021-01-28-391/pdf/)
+
+- VQE for arbitrarily many qubits in Cirq
+
+- Custom ParameterShift and Adam optimization comparison with TFQ
+
+- Arbitrary Qubit VQE in TFQ
+
+- [SSVQE](https://arxiv.org/abs/1810.09434) for excited states in TFQ
+
+- QOSF Application Problems:
+
+  - Swap Test in Cirq
+
+  - Simple Quantum Error Correction in Cirq
+
+  - Quantum Simulator from Scratch
+
+  - Weighted MaxCut QAOA in Cirq
+
+- Barren Plateaus in TFQ
+
+- Variational Quantum Classifiers/Regressors in TFQ for Circles, Moons, Blobs and Boston Housing
+
+## Pennylane
+
+Code for Pennylane experiments (largely from the [QHack](https://qhack.ai/) hackathon). Problems here: https://challenge.qhack.ai/team/problems. 
+
+- Simple Circuits (20, 30, 50)
+
+- Quantum Gradients (100, 200, 500)
+
+- Circuit Training (100, 200, 500)
+
+- Variational Quantum Eigensolvers (100, 200, 500)
 
 ## Research
 
